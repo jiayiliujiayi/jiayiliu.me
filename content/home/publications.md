@@ -2,7 +2,7 @@
 # Recent Publications widget.
 # This widget displays recent publications from `content/publication/`.
 widget = "publications"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 title = "Recent Publications"
@@ -36,4 +36,3 @@ publication_type = "-1"
 # Exclude publications that are shown in the Featured Publications widget?
 exclude_featured = false
 +++
-
