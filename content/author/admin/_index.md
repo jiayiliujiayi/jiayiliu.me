@@ -13,16 +13,16 @@ role = "Grad Student"
 organizations = [ { name = "X University", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "试试中文"
+bio = "My research interests include intestinal microbiota in pediatric enterocolitis using informatics approaches"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Intestinal Microbiota",
+  "试试中文",
+  "Informatics"
 ]
 
 # List qualifications (such as academic degrees)
