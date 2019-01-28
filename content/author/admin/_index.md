@@ -20,8 +20,8 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Intestinal Microbiota 肠道菌群",
-  "Bionformatics 生物信息"
+  "Intestinal Microbiota",
+  "Bionformatics"
 ]
 
 # List qualifications (such as academic degrees)
@@ -56,8 +56,8 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-##  link = "#contact"  # For a direct email link, use      
-  link = "mailto:jiayili@sjtu.edu.cn".
+  link = "#contact"  # For a direct email link, use      
+##  link = "mailto:jiayili@sjtu.edu.cn".
 
 [[social]]
   icon = "github"
