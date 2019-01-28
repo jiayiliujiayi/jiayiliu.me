@@ -56,7 +56,8 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use      
+  link = "mailto:jiayiliu@sjtu.edu.cn"  
+# For a direct email link, use      
 ##  link = "mailto:jiayili@sjtu.edu.cn".
 
 [[social]]
