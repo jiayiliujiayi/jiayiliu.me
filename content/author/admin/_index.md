@@ -72,3 +72,5 @@ interests = [
 #   link = "files/cv.pdf"
 
 +++
+
+“不学无术 面目可憎” 心怀希望 永不放弃
