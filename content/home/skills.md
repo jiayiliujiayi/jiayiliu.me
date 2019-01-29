@@ -25,18 +25,29 @@ weight = 7
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "73%"
-
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  description = "83%"
 
 [[feature]]
   icon = "keyboard"
   icon_pack = "fas"
   name = "LaTex"
-  description = "83%"
+  description = "91%"
 
+[[feature]]
+  icon = "python"
+  icon_pack = "fas"
+  name = "Python"
+  description = "17%"
+
+[[feature]]
+  icon = "user-md"
+  icon_pack = "fas"
+  name = "Medicine"
+  description = "17%"
+
+[[feature]]
+  icon = "microscope"
+  icon_pack = "fas"
+  name = "Research"
+  description = "23%"
 +++
