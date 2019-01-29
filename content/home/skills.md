@@ -35,15 +35,9 @@ weight = 7
 
 [[feature]]
   icon = "python"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Python"
   description = "17%"
-
-  [[feature]]
-    icon = "python"
-    icon_pack = "fas"
-    name = "Python"
-    description = "17%"
 
 [[feature]]
   icon = "user-md"
