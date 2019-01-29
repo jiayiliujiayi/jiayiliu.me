@@ -73,5 +73,5 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.
+Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
 “不学无术 面目可憎” 心怀希望 永不放弃
