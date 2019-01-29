@@ -43,7 +43,7 @@ weight = 7
   icon = "user-md"
   icon_pack = "fas"
   name = "Medicine"
-  description = "17%"
+  description = "71%"
 
 [[feature]]
   icon = "microscope"
