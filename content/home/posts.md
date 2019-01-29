@@ -10,7 +10,7 @@ title = "Recent Posts"
 subtitle = ""
 
 # Number of recent posts to list.
-count = 5
+count = 11
 
 # List format.
 #   0 = Simple
@@ -23,4 +23,3 @@ list_format = 2
 filter_tag = ""
 filter_category = ""
 +++
-
