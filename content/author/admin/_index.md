@@ -13,7 +13,7 @@ role = "Grad Student"
 organizations = [ { name = "X University", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include intestinal microbiota in pediatric enterocolitis using informatics approaches"
+bio = "Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -73,5 +73,5 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-
+Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.
 “不学无术 面目可憎” 心怀希望 永不放弃

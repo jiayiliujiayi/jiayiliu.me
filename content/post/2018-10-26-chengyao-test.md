@@ -10,4 +10,4 @@ tags:
 ---
 
 程瑶你是最棒滴！  
-<img src="/post/2018-10-26-chengyao-test_files/IMG_2040.JPG" alt="match大吉" width="90%"/>
+{{< figure library="1" src="chengyaobest.jpg" title="" >}}
