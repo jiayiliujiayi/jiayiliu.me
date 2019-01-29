@@ -39,6 +39,12 @@ weight = 7
   name = "Python"
   description = "17%"
 
+  [[feature]]
+    icon = "python"
+    icon_pack = "fas"
+    name = "Python"
+    description = "17%"
+
 [[feature]]
   icon = "user-md"
   icon_pack = "fas"
