@@ -39,5 +39,5 @@ to be continued
 
 ------------------------------接下来是五十步笑百步时间---------------------------------------  
 家父几年前的博文：  
-{{< figure library="1" src="2018-10-24-slightest-error_files/original_Q50f_2159000000f1118f.jpg" title="五十步笑百步" >}}
+{{< figure library="1" src="original_Q50f_2159000000f1118f" title="五十步笑百步" >}}
 如今我居然能看懂（其实是因为自己也遇到过一模一样的问题哈哈）
