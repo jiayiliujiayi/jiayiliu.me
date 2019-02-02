@@ -8,8 +8,8 @@ authors = ["Jiayi"]
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
+tags = ["reflection"]
+categories = ["Life"]
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -29,3 +29,4 @@ categories = []
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+近期
