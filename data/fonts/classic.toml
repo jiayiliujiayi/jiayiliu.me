@@ -2,10 +2,10 @@
 name = "Classic"
 
 # Optional Google font URL
-google_fonts = "ZCOOL QingKe HuangYou|Noto Serif SC|Roboto+Mono"
+google_fonts = "Noto Sans SC|Noto Serif SC|Roboto+Mono"
 
 # Font families
-heading_font = "ZCOOL QingKe HuangYou"
+heading_font = "Noto Sans SC"
 body_font = "Noto Serif SC"
 nav_font = "Lato"
 mono_font = "Roboto Mono"
