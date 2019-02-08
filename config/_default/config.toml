@@ -26,7 +26,7 @@ disqusShortname = "jiayiliu-me"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic"
+theme = "default"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
