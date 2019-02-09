@@ -7,7 +7,7 @@ google_fonts = "Noto Sans SC|Noto Serif SC|Roboto+Mono"
 # Font families
 heading_font = "Noto Sans SC"
 body_font = "Noto Serif SC"
-nav_font = "Lato"
+nav_font = "Noto Sans SC"
 mono_font = "Roboto Mono"
 
 # Font size
