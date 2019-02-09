@@ -13,7 +13,7 @@ role = "Grad Student"
 organizations = [ { name = "SCMC, SJTU", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Atypical Med student with obsessive compulsory personality. Interested in data science and bioinformatics. Learning R, Python and statistics. Addicted to anything that is logical, explicit, flat, sparse. "
+bio = "Atypical Med student with “obsessive compulsory personality”. Interested in data science and bioinformatics. Learning R, Python and statistics. Crazy about any data that is logical, explicit, flat, sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -28,12 +28,12 @@ interests = [
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "M.Med"
-  institution = "Shanghai Jiaotong University"
+  institution = "Med School, Shanghai Jiaotong University"
   year = 2019
 
 [[education.courses]]
   course = "MBBS"
-  institution = "Soochow University, Suzhou"
+  institution = "Med College, Soochow University, Suzhou"
   year = 2016
 
 # Social/Academic Networking
@@ -75,6 +75,12 @@ interests = [
 
 +++
 Atypical med student.  
-Obsessive compulsory personality.
-Super interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
-“不学无术 面目可憎” 心怀希望 永不放弃
+Perfectionism.  
+Proficient in R; learning Python. Big fan of LaTex.  
+Crazy about anything that is logical, explicit, responsive and orderly.
+————————————————
+非典型医学生。
+强迫型人格，完美主义。
+平时常用R；python学习中…LaTex死忠粉。
+热爱一切逻辑清晰，简洁明了和秩序井然。
+自我评价：“不学无术，面目可憎”；心怀希望，永不放弃。
