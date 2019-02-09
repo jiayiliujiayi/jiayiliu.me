@@ -28,7 +28,8 @@ interests = [
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "M.Med"
-  institution = "Shanghai Jiaotong University School of Medicine"
+  institution = "Shanghai Jiaotong University, "
+  institution = "School of Medicine"
   year = 2019
 
 [[education.courses]]
