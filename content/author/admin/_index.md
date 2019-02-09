@@ -13,7 +13,7 @@ role = "Grad Student"
 organizations = [ { name = "X University", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology. "
+bio = "Atypical Med student with obsessive compulsory personality. Interested in data science and bioinformatics. Learning R, Python and statistics. Addicted to anything that is logical, explicit, flat, sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
