@@ -20,19 +20,20 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Intestinal Microbiota",
+  "Clinical Big Data",
+  "Microbiota",
   "Bionformatics"
 ]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "MMED"
-  institution = "SJTU"
+  course = "M.Med"
+  institution = "Shanghai Jiaotong University School of Medicine"
   year = 2019
 
 [[education.courses]]
   course = "MBBS"
-  institution = "SCU"
+  institution = "Soochow University, Suzhou"
   year = 2016
 
 # Social/Academic Networking
@@ -73,5 +74,5 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Med student majoring in Pediatrics. Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
+Atypical med Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
 “不学无术 面目可憎” 心怀希望 永不放弃
