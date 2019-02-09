@@ -10,7 +10,7 @@ role = "Grad Student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "X University", url = "" } ]
+organizations = [ { name = "SCMC, SJTU", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Atypical Med student with obsessive compulsory personality. Interested in data science and bioinformatics. Learning R, Python and statistics. Addicted to anything that is logical, explicit, flat, sparse. "
