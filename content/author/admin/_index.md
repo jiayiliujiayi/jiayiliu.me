@@ -28,8 +28,7 @@ interests = [
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "M.Med"
-  institution = "Shanghai Jiaotong University, "
-  institution = "School of Medicine"
+  institution = "Shanghai Jiaotong University"
   year = 2019
 
 [[education.courses]]
@@ -75,5 +74,7 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Atypical med Interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
+Atypical med student.  
+Obsessive compulsory personality.
+Super interested in nutrition, microbiota, data science, bioinformatics, etc. Learning R, Python and statistics. Planning to learn basics in CS and biology.  
 “不学无术 面目可憎” 心怀希望 永不放弃
