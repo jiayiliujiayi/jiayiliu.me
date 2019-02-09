@@ -74,13 +74,14 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Atypical med student.  
-Perfectionism.  
-Proficient in R; learning Python. Big fan of LaTex.  
-Crazy about anything that is logical, explicit, responsive and orderly.
+Atypical med student. Majoring in Pediatrics (love kids!!!).   
+100% "Obsessive compulsory personality". 97% Perfectionism. 77% Pessimism.  
+Proficient in R; learning Python. Big fan of LaTex. Innate personal preference for absolute numbers.    
+Crazy about anything that is logical, explicit, responsive and orderly.  
 --------------------------------  
-非典型医学生。
-强迫型人格，完美主义。
-平时常用R；python学习中…LaTex死忠粉。
-热爱一切逻辑清晰，简洁明了和秩序井然。
-自我评价：“不学无术，面目可憎”；心怀希望，永不放弃。
+非典型医学生。学儿科，大部分源于喜欢小孩儿。  
+如假包换强迫型人格，追求完美，时常悲观。  
+平时常用R；python学习中…LaTex死忠粉。天生偏好质数。  
+热爱一切逻辑清晰，简洁明了和秩序井然。  
+最欣赏的诗：“往者不可谏，来者犹可追。”  
+自我评价：“不学无术，面目可憎”；心怀希望，永不放弃。  
