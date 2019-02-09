@@ -78,7 +78,7 @@ Atypical med student.
 Perfectionism.  
 Proficient in R; learning Python. Big fan of LaTex.  
 Crazy about anything that is logical, explicit, responsive and orderly.
-————————————————
+--------------------------------  
 非典型医学生。
 强迫型人格，完美主义。
 平时常用R；python学习中…LaTex死忠粉。
