@@ -40,3 +40,9 @@
     name = "CV"
     url = "files/cv.pdf"
     weight = 7
+
+# Link statistics
+[[mai]]
+    name = "Stats"
+    url = "clustrmaps"
+    weight = 8
