@@ -42,7 +42,7 @@
     weight = 7
 
 # Link statistics
-[[mai]]
+[[main]]
     name = "Stats"
     url = "clustrmaps"
     weight = 8
