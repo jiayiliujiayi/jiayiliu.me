@@ -44,5 +44,5 @@
 # Link statistics
 [[main]]
     name = "Stats"
-    url = "clustrmaps"
+    url = "#clustrmaps"
     weight = 8
