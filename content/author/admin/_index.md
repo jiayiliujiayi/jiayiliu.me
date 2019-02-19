@@ -74,12 +74,12 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Atypical med student. Majoring in Pediatrics (love kids!!!).   
+Atypical med student.    
 100% "Obsessive compulsory personality". 97% Perfectionism. 77% Pessimism.  
 Proficient in R; learning Python. Big fan of LaTex. Innate personal preference for absolute numbers.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 
-非典型医学生。学儿科，喜欢小孩儿。  
+非典型医学生。  
 如假包换强迫型人格，追求完美，时常悲观。  
 常用R；python学习中……LaTex死忠粉。天生偏好质数。  
 热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
