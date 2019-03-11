@@ -8,4 +8,6 @@ categories:
 tags:
   - life
 ---
-祝贺！
+祝贺！  
+
+![alternative text for search engines](/img/congratsyaocheng.jpg)  
