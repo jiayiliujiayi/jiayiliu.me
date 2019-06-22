@@ -20,8 +20,7 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Clinical Big Data",
-  "Microbiota",
+  "Data",
   "Bionformatics"
 ]
 
@@ -32,7 +31,7 @@ interests = [
   year = 2019
 
 [[education.courses]]
-  course = "MBBS"
+  course = "MBBS (MD Equivalent)"
   institution = "Med College, Soochow University, Suzhou"
   year = 2016
 
@@ -74,14 +73,15 @@ interests = [
    link = "files/cv.pdf"
 
 +++
-Atypical med student.    
-100% "Obsessive compulsory personality". 97% Perfectionism. 77% Pessimism.  
+Atypical med student.  
+INFJ.  
+100% "Obsessive Compulsory Personality". 97% Perfectionism. 77% Pessimism.  
 Proficient in R; learning Python. Big fan of LaTex. Innate personal preference for absolute numbers.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 
 非典型医学生。  
 如假包换强迫型人格，追求完美，时常悲观。  
-常用R；python学习中……LaTex死忠粉。天生偏好质数。  
+常用R；python学习中…… LaTex死忠粉。天生偏爱质数。  
 热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
 最欣赏的诗：“往者不可谏，来者犹可追。”  
-自我评价：“不学无术，面目可憎”；心怀希望，永不放弃。  
+Self Potrait：“不学无术，面目可憎”；心怀希望，永不放弃。  
