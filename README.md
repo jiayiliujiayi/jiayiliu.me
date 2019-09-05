@@ -3,7 +3,7 @@
 This is Jiayi's personal website:))
 
 ## Credits  
-This website is powered by the [Academic theme](https://themes.gohugo.io//theme/academic/) for [Hugo[(https://themes.gohugo.io).
+This website is powered by the [Academic theme](https://themes.gohugo.io//theme/academic/) for [Hugo](https://themes.gohugo.io) and deployed by [Netlify](https://www.netlify.com).
 
 ## Lisence
 
