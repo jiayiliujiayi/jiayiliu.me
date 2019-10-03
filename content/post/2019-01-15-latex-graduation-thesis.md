@@ -13,8 +13,6 @@ tags:
 其实捏，是拖延症导致本人时不时想玩耍偷懒好吃懒做好逸恶劳骄奢淫逸，可是纯玩又太内疚太空虚，于是想到用latex排版咯，感谢前辈们铺平的康庄大道！  
 排版过程中遇到过各种各样的问题，很令人抓狂，但解决过程又让人欲罢不能！所以决定记下来解决方法，希望以后再翻看时有所收获，如果有益于后人那便更好。  
 
-\( \LaTeX \)
-
 \#latex用久了又快要忘了markdown了……木鱼脑子真是名副其实呀！  
 
 **一些个人习惯**  
@@ -25,10 +23,9 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 0. 源代码：[上海交通大学 XeLaTeX 学位论文及课程论文模板](https://github.com/sjtug/SJTUThesis)  
 1. macos 10.14.2 (18C54)  
 2. MacTeX-2018  
-3 Atom editor  
+3. Text Editor: Atom    
 4. 编译用latexmk或xelatex    
 5. 参考文件生成使用BibDesk  
-<sup>如果有时间我想尝试sublime 嘻嘻
 
 **终于到正文了**  
 常见问题可以搜索[issues栏目](https://github.com/sjtug/SJTUThesis/issues?utf8=✓&q=参考文献)  
@@ -46,14 +43,14 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 我自己遇到的问题场景是：1.无法编译我自定义的bib文件, 2.bibtex无法编译后续的aux文件  
 解决方法：创建.bib文件，使用BibDesk再生成bib文件；调用latexmk对模版thesis.tex进行编译；调用*biber*对thesis.bcf文件进行编译；再次调用latexmk对模版tesis.tex进行编译，就可以啦。引用command包括\cite和\parencite（这是一句废话）  
 感谢：[github@double-free](https://github.com/double-free)，[这是](https://github.com/sjtug/SJTUThesis/issues/204)相关帖子，[这是](https://www.jianshu.com/p/50464c7c5ffe)具体解决方法链接。  
-------------以下1.16更新  
+------------ 以下1.16更新  
 3. citekey问题
 问题场景：（前提是我现在没搞明白bibtex怎么编译）我用googlescholar来生成.bib，再用bibdesk这个软件生成.bib file时，citekey会提示unexpected
 解决方法：生成原始bibtex的时候对cite key进行修改，修改成英文就好。  
 4. export in batches @ googlescholar  
 问题场景：每条文献手动编辑要疯  
 解决方法：search-->"star"" the paper --> go to "My Library" in the left-side bar --> select all on the top bar --> export as BibTeX;尝试了百度学术同理，而且百度学术导出的bibtex还带abstract。  
-------------一下1.17更新
+------------ 以下1.17更新
 5. 目录的附录部分不显示subsection  
 问题场景：附录部分的subsection隐藏  
 尝试过的解决方法：[见链接](https://github.com/sjtug/SJTUThesis/issues/403)  
@@ -67,7 +64,7 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 所以改成\subsection{sectionname\footnote{foo}}就好.  
 会出现的问题就是在目录页也会出现footnote，不过我的footnote是标注附录的section，which is selectively muted in the table of contents...所以负负得正了- -   
 所以这个问题究其根本还是没解决sigh。  
-------------以下1.20更新  
+------------ 以下1.20更新  
 7. 添加横向表的问题  
 问题场景：如题  
 解决方法：在.cls文件里添加一行\RequirePackage{rotating}，再用\begin{sidewaystable}\end{sidewaytable}环境，搞定。
