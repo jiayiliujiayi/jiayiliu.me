@@ -6,11 +6,11 @@ name = "Jiayi Liu"
 superuser = true
 
 # Role/position
-role = "Grad Student"
+role = ""
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "SCMC, SJTU", url = "" } ]
+organizations = [ { name = "UTHealth", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in data science and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat, sparse. "
