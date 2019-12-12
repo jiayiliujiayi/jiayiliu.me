@@ -80,14 +80,15 @@ interests = [
 +++
 Atypical med student.  
 INFJ.  
-100% "Obsessive Compulsory Personality". 97% Perfectionism. 77% Pessimism.  
-The languages that I speak: Mandarin Chinese, Shanghainese dialect, English; R, python.  
-Big fan of LaTex. Innate personal preference for absolute numbers.  
+An OCD patient with obsessive compulsory personality.  
+A perfectionist and pessimist.  
+A big fan of all the absolute numbers.  
+The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of the Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 
 非典型医学生。  
-如假包换强迫型人格，追求完美，时常悲观。  
+强迫症患者，强迫型人格，追求完美，时常悲观。  
 R \& python…… LaTex死忠粉。我爱质数。  
 热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
 最欣赏的诗：“往者不可谏，来者犹可追。”  
-Self Potrait：“不学无术，面目可憎”；心怀希望，永不放弃。  
+Self Potrait：“不学无术，面目可憎”；心怀失望，永不放弃。  
