@@ -82,7 +82,7 @@ Atypical med student.
 INFJ.  
 An OCD patient with obsessive compulsory personality.  
 A perfectionist and pessimist.  
-A big fan of all the absolute numbers.  
+A big fan of all the prime numbers.  
 The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of the Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 
