@@ -44,8 +44,8 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 解决方法：创建.bib文件，使用BibDesk再生成bib文件；调用latexmk对模版thesis.tex进行编译；调用*biber*对thesis.bcf文件进行编译；再次调用latexmk对模版tesis.tex进行编译，就可以啦。引用command包括\cite和\parencite（这是一句废话）  
 感谢：[github@double-free](https://github.com/double-free)，[这是](https://github.com/sjtug/SJTUThesis/issues/204)相关帖子，[这是](https://www.jianshu.com/p/50464c7c5ffe)具体解决方法链接。  
 ------------ 以下1.16更新  
-3. citekey问题
-问题场景：（前提是我现在没搞明白bibtex怎么编译）我用googlescholar来生成.bib，再用bibdesk这个软件生成.bib file时，citekey会提示unexpected
+3. citekey问题  
+问题场景：（前提是我现在没搞明白bibtex怎么编译）我用googlescholar来生成.bib，再用bibdesk这个软件生成.bib file时，citekey会提示unexpected  
 解决方法：生成原始bibtex的时候对cite key进行修改，修改成英文就好。  
 4. export in batches @ googlescholar  
 问题场景：每条文献手动编辑要疯  
