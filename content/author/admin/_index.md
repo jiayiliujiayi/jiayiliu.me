@@ -83,7 +83,7 @@ INFJ.
 An OCD patient with obsessive compulsory personality.  
 A perfectionist and pessimist.  
 A big fan of the prime numbers.  
-The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of the Wu Chinese), English.  
+The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 
 非典型医学生。  
