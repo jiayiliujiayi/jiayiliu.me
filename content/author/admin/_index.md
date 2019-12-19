@@ -13,14 +13,14 @@ role = ""
 organizations = [ { name = "UTHealth", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in data science and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat, sparse. "
+bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in data science and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Data",
+  "Data Science",
   "Bionformatics"
 ]
 
@@ -79,16 +79,17 @@ interests = [
 
 +++
 Atypical med student.  
-INFJ.  
+INTJ.  
 An OCD patient with obsessive compulsory personality.  
-A perfectionist and pessimist.  
+An introvert, perfectionist and pessimist.  
 A big fan of the prime numbers.  
 The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
+In Chinese, my name is written **刘嘉奕**
 
 非典型医学生。  
 强迫症患者，强迫型人格，追求完美，时常悲观。  
 R \& python…… LaTex死忠粉。我爱质数。  
 热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
-最欣赏的诗：“往者不可谏，来者犹可追。”  
+最喜欢的一句话：“往者不可谏，来者犹可追。”  
 Self Potrait：“不学无术，面目可憎”；心怀失望，永不放弃。  
