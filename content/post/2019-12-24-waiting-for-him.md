@@ -4,7 +4,7 @@ author: Jiayi
 date: '2019-12-24'
 slug:
 categories:
-  - Memories
+  - Fiction
 tags:
   - memories
 ---
