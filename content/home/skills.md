@@ -30,7 +30,7 @@ weight = 7
 [[feature]]
   icon = "keyboard"
   icon_pack = "fas"
-  name = "LaTex"
+  name = "LaTeX"
   description = "91%"
 
 [[feature]]
