@@ -13,15 +13,16 @@ role = ""
 organizations = [ { name = "UTHealth", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in data science and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
+bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in cancer research and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Data Science",
-  "Bionformatics"
+  "Translational Research",
+  "Cancer Biology",
+  "Bioinfomatics"
 ]
 
 # List qualifications (such as academic degrees)
@@ -85,7 +86,7 @@ An introvert, perfectionist and pessimist.
 A big fan of the prime numbers.  
 The languages that I speak: R, python, LaTeX; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
-In Chinese, my name is written *刘嘉奕*. It‘s a derivation of the word *"嘉贻"* in the Thousand Character Classic (千字文): *"貽厥嘉猷"*, which means "a wonderful gift".  
+In Chinese, my name is written *刘嘉奕*. It‘s a derivation of the word *「嘉贻」* in the Thousand Character Classic (千字文): *「貽厥嘉猷」*, which means "a wonderful gift".  
 
 非典型医学生。  
 强迫症患者，强迫型人格，追求完美，时常悲观。  
