@@ -83,7 +83,7 @@ INTJ.
 An OCD patient with obsessive compulsory personality.  
 An introvert, perfectionist and pessimist.  
 A big fan of the prime numbers.  
-The languages that I speak: R, python, LaTex; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
+The languages that I speak: R, python, LaTeX; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 In Chinese, my name is written *刘嘉奕*. It‘s a derivation of the word *"嘉贻"* in the Thousand Character Classic (千字文): *"貽厥嘉猷"*, which means "a wonderful gift".  
 
