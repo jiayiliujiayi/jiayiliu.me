@@ -6,7 +6,7 @@ slug: latex-graduation-thesis
 categories:
   - code
 tags:
-  - latex
+  - LaTeX
   - fun
 ---
 ### **引言**  
