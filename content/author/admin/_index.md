@@ -89,7 +89,7 @@ In Chinese, my name is written *刘嘉奕*. It‘s a derivation of the word *"�
 
 非典型医学生。  
 强迫症患者，强迫型人格，追求完美，时常悲观。  
-R \& python…… LaTex死忠粉。我爱质数。  
+R \& python…… LaTeX死忠粉。我爱质数。  
 热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
 最喜欢的一句话：“往者不可谏，来者犹可追。”  
 Self Potrait：“不学无术，面目可憎”；心怀失望，永不放弃。  
