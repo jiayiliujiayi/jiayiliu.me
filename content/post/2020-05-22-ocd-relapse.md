@@ -1,7 +1,7 @@
 ---
 title: 强迫症二三事
 author: JIAYI  
-date: '2020-05-05'
+date: '2020-05-22'
 categories:
   - life
 tags:
