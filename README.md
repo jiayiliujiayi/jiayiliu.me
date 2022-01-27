@@ -7,7 +7,7 @@ This website is powered by the [Academic theme](https://themes.gohugo.io//theme/
 
 ## Lisence
 
-Copyright 2019 [Jiayi Liu](https://jiayiliu.me).  
+Copyright 2022 [Jiayi Liu](https://jiayiliu.me).  
 
 Released under the [MIT](https://github.com/jiayiliujiayi/jiayiliu.me/blob/master/LICENSE.md) license.  
 
