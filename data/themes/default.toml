@@ -5,14 +5,14 @@ name = "Default"
 light = true
 
 # Primary
-primary = "#E895BC" #logo的颜色：粉红色
+primary = "#51A8DD" #logo color: gunjyo
 primary_light = "#768fff"
 primary_dark = "#0039cb"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#E895BC" #active的menusection颜色：粉红色
+menu_text_active = "#51A8DD" #active menusection color: gunjyo
 menu_title = "#2b2b2b"
 
 # Home sections
