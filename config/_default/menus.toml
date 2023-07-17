@@ -3,7 +3,6 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-
 [[main]]
   name = "About"
   url = "#about"
@@ -30,7 +29,7 @@
     weight = 7
 
 # Link statistics
-[[main]]
-    name = "Stats"
-    url = "#clustrmaps"
-    weight = 8
+#[[main]]
+#    name = "Stats"
+#    url = "#clustrmaps"
+#    weight = 8
