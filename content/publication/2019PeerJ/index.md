@@ -1,15 +1,23 @@
 ---
-title: "The Rubber Hand Illusion: Top-down attention modulates embodiment"
+title: "Patterned progression of gut microbiota associated with necrotizing enterocolitis and late onset sepsis in preterm infants: a prospective study in a Chinese neonatal intensive care unit"
 
 # Publication name and optional abbreviated publication name.
-publication: "*Quarterly Journal of Experimental Psychology*, *75*(11), 2129-2148. <a href='https://doi.org/10.1177/17470218221078858' target='_blank' rel='noopener noreferrer'>doi.org/10.1177/17470218221078858</a>"
+publication: "* PeerJ – Life and Environment*, *7*, e7310. <a href='https://doi.org/10.7717/peerj.7310' target='_blank' rel='noopener noreferrer'>doi.org/10.7717/peerj.7310</a>"
 
 #publication_short: 
 
 authors:
 - Jiayi Liu
-- Mathieu Landry
-- Amir Raz
+- Yuqing Li
+- Yi Feng
+- Liya Pan 
+- Zhoulonglong Xie
+- Zhilong Yan
+- Li Zhang
+- Mingkun Li
+- Jianhua Zhao
+- Jianhua Sun
+- Li Hong​
 
 publication_types:
 - "2"
@@ -19,19 +27,19 @@ add_badge: true
 
 featured: true
 
-date: "2022-01-22T00:00:00-04:00"
+date: "2019-07-22T00:00:00-04:00"
 
-doi: "10.1177/17470218221078858"
+doi: "doi.org/10.7717/peerj.7310"
 
 external_link: 
 
 links: 
  - name: PDF
-   url: "https://remi-theriault.com/papers/Theriault_et_al_2022.pdf"
+   url: "https://peerj.com/articles/7310.pdf"
  - name: Supplemental Material
-   url: "https://remi-theriault.com/papers/Theriault_et_al_2022_SOM.pdf"
+   url: "https://peerj.com/articles/7310/#supplemental-information"
 
-abstract: "The Rubber Hand Illusion (RHI) creates distortions of body ownership through multimodal integration of somatosensory and visual inputs. This illusion largely rests on bottom-up (automatic multisensory and perceptual integration) mechanisms. However, the relative contribution from top-down factors, such as controlled processes involving attentional regulation, remains unclear. Following previous work that highlights the putative influence of higher-order cognition in the RHI, we aimed to further examine how modulations of working memory load and task instructions—two conditions engaging top-down cognitive processes—influence the experience of the RHI, as indexed by a number of psychometric dimensions. Relying on exploratory factor analysis for assessing this phenomenology within the RHI, our results confirm the influence of higher-order, top-down mental processes. Whereas task instruction strongly modulated embodiment of the rubber hand, cognitive load altered the affective dimension of the RHI. Our findings corroborate that top-down processes shape the phenomenology of the RHI and herald new ways to improve experimental control over the RHI."
+abstract: ""
 
 
 # ####################################################################
