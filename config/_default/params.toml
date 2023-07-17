@@ -52,7 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "jl2791@rutgers.edu"
 phone = "+1(626)975-5838"
-address = ""
+address = "679 Hoes Lane West, Piscataway, New Jersey, 08854-8021"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 ##office_hours = """Monday 10:00 to 13:00<br>
@@ -60,7 +60,7 @@ address = ""
 ##                  Otherwise email to book an appointment"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+appointment_url = "https://fantastical.app/JLiu/jiayi_all_openings"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.

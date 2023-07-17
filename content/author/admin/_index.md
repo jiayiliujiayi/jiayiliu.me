@@ -10,30 +10,30 @@ role = ""
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "UTHealth", url = "" } ]
+organizations = [ { name = "Center for Advanced Biotechnology and Medicine, Rutgers University", url = "https://cabm.rutgers.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Atypical Med student with “obsessive compulsory personality”.  Interested in cancer research and bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
+bio = "Obsessive compulsory personality”.  Interested in bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Translational Research",
-  "Cancer Biology",
-  "Bioinfomatics"
+  "Bioinformatics",
+  "Functional genomics",
+  "Translational research"
 ]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "M.Med"
-  institution = "Med School, Shanghai Jiaotong University"
+  course = "Master of Medicine in Pediatrics"
+  institution = "School of Medicine, Shanghai Jiao Tong University, Shanghai, China"
   year = 2019
 
 [[education.courses]]
-  course = "MBBS (MD Equivalent)"
-  institution = "Med College, Soochow University, Suzhou"
+  course = "Bachelor of Medicine in Clinical Medicine"
+  institution = "Medical College, Soochow University, Suzhou"
   year = 2016
 
 # Social/Academic Networking
@@ -57,20 +57,7 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jiayi.liu@uth.tmc.edu"  
-# For a direct email link, use      
-##  link = "mailto:jiayi.liu@uth.tmc.edu".
-
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/jiayiliujiayi"
-
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/jiayi_liu_jiayi"
-
+  link = "mailto:jl2791@scarletmail.rutgers.edu"  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  [[social]]
@@ -78,8 +65,22 @@ interests = [
    icon_pack = "ai"
    link = "files/cv.pdf"
 
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/jiayiliujiayi"
+
+ [[social]]
+   icon = "google-scholar"
+   icon_pack = "ai"
+   link = "https://scholar.google.com/citations?user=W96TrBgAAAAJ&hl=en"
+ 
+ [[social]]
+   icon = "orcid"
+   icon_pack = "ai"
+   link = "https://orcid.org/0000-0001-6432-0124"
+
 +++
-Atypical med student.  
 INTJ.  
 An OCD patient with obsessive compulsory personality.  
 An introvert, perfectionist and pessimist.  
@@ -87,10 +88,3 @@ A big fan of the prime numbers.
 The languages that I speak: R, python, LaTeX; Mandarin Chinese, Shanghainese dialect (a variety of Wu Chinese), English.  
 Crazy about anything that is logical, explicit, responsive and orderly.  
 In Chinese, my name is written *刘嘉奕*. It‘s a derivation of the word *「嘉贻」* in the Thousand Character Classic (千字文): *「貽厥嘉猷」*, which means "a wonderful gift".  
-
-非典型医学生。  
-强迫症患者，强迫型人格，追求完美，时常悲观。  
-R \& python…… LaTeX 死忠粉。我爱质数。  
-热爱一切逻辑清晰、简洁明了、有求必应和井井有条。  
-最喜欢的一句话：“往者不可谏，来者犹可追。”  
-Self Potrait：“不学无术，面目可憎”；心怀失望，永不放弃。  
