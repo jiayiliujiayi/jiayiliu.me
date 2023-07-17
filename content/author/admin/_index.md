@@ -6,7 +6,7 @@ name = "Jiayi Liu"
 superuser = true
 
 # Role/position
-role = ""
+role = "PhD candidate"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -27,7 +27,7 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "MSc in Medicine"
+  course = "MSc *in Medicine*"
   institution = "School of Medicine, Shanghai Jiao Tong University, Shanghai, China"
   year = 2019
 
