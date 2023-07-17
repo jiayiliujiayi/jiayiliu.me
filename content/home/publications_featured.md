@@ -10,7 +10,7 @@ title = "Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-#weight = 10
+weight = 70
 
 # List format.
 #   0 = Simple
