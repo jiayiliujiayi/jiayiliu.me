@@ -6,14 +6,14 @@ name = "Jiayi Liu"
 superuser = true
 
 # Role/position
-role = ""
+role = "PhD candidate"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Center for Advanced Biotechnology and Medicine, Rutgers University", url = "https://cabm.rutgers.edu/" } ]
+organizations = [ { name = "Rutgers University", url = "https://cabm.rutgers.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Obsessive compulsory personality”.  Interested in bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
+bio = "Obsessive compulsory personality.  Interested in bioinformatics.  A heavy user of R. Crazy about any data that is logical, explicit, flat and sparse. "
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -27,12 +27,12 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Master of Medicine in Pediatrics"
+  course = "MSc in Medicine"
   institution = "School of Medicine, Shanghai Jiao Tong University, Shanghai, China"
   year = 2019
 
 [[education.courses]]
-  course = "Bachelor of Medicine in Clinical Medicine"
+  course = "MBBS"
   institution = "Medical College, Soochow University, Suzhou"
   year = 2016
 
