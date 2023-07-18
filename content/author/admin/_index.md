@@ -33,7 +33,7 @@ interests = [
 
 [[education.courses]]
   course = "MBBS"
-  institution = "Medical College, Soochow University, Suzhou"
+  institution = "Medical College, Soochow University, Suzhou, China"
   year = 2016
 
 # Social/Academic Networking
