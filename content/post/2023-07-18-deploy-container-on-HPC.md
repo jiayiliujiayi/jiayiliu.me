@@ -37,10 +37,10 @@ In this post, I would like to provide a step by step tutorial on how to run sing
 ### Table of Contents
 
 1. [What is a container?](#what-is-a-container)
-2. [Where can I get containers](#where-can-i-get-containers)  
+2. [Where can I get containers?](#where-can-i-get-containers)  
   2.1 [Public resources](#public-resources)  
-  2.2 [Build my own container](#build-your-own-container)  
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)  
+  2.2 [Build my own container](#build-my-own-container)  
+3. [How to run a container on HPC](#how-to-run-a-container-on-hpc)  
 
 ## What is a container?  
 
@@ -147,8 +147,109 @@ From: debian:stable-slim
 
 After you've done with the recipe, you can paste it into the [Singularity Container Builder](https://cloud.sylabs.io/builder) to generate your own container.  
 
-## How to use a container?  
+## How to run a container on HPC? 
 
-After you've got a container, you can use it in your HPC.  Here's an example of how to use a container in the [SLURM](https://slurm.schedmd.com/) environment:  
+*In the following code blocks in this section, I'll add my comments/recommendations starting with ` ## Jiayi: `.*
+
+
+Here, I'll be using one of my Singularity containers as an example.  I've built several singularity containers that could boost productivity in bioinformatics research. You can check them from [here](https://cloud.sylabs.io/library/jiayiliujiayi).  
+
+First, in your HPC, you'll need to have the Singularity installed and loaded.  If you don't have it, you can follow the instructions [here](https://sylabs.io/guides/3.0/user-guide/installation.html). If you have it, you can simply load it:  
 
 ```bash
+module load singularity/3.8.3 
+## Jiayi: check with your HPC admin for the version, or check with `module avail singularity`. 
+```
+
+Second, you'll need to pull the container from the cloud. This above command will pull the container from the cloud and save it as a file named "rserver_4-1-1bioinfo.sif".  
+
+```bash
+singularity pull --arch amd64 library://jiayiliujiayi/rserver/rserver:4-1-1bioinfo
+## Jiayi: This container is a Rstudio server container, along with common R packages including Seurat, ggplot2, tidyverse, dplyr, etc.  
+```  
+
+Third, you can use this container in your HPC.  I'll use [SLURM](https://slurm.schedmd.com/) environment as an example.  In your workign directory, you can create a script named "run_rstudio.sh" with the following content:  
+
+```bash
+#!/bin/bash
+
+## Jiayi: This is a SLURM script.  You can check with your HPC admin for the details (marked with XXX).  You can also check the documentations of SLURM: https://slurm.schedmd.com/
+
+#SBATCH --job-name=rstudio
+#SBATCH --output=rstudio_%j.out
+#SBATCH --error=rstudio_%j.err
+#SBATCH --time=3-00:00:00 ## Jiayi: check with your HPC admin for the time limit, or change it to the time length you need.
+#SBATCH --mem=100G
+#SBATCH --cpus-per-task=10
+#SBATCH --partition=general
+#SBATCH --qos=general
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=XXX ## Jiayi: change it to your email address if you want to get updated with the job status. 
+
+# load the singularity module
+module purge
+module load singularity/3.8.3
+
+# prepare for the Rstudio server
+## Do not suspend idle sessions.
+export SINGULARITYENV_RSTUDIO_SESSION_TIMEOUT=0
+
+## Container user set ups
+export SINGULARITYENV_USER=XXX ## Jiayi: change it to your username on the HPC
+export SINGULARITYENV_PASSWORD=XXXX ## Jiayi: define your own password, and it doesn't necessarily need to be the same as your HPC password.
+
+## Get IP address
+IP_ADDR=`hostname -i`
+echo $IP_ADDR
+
+## write out the IP address and port number to a file
+cat 1>&2 <<END
+1. SSH tunnel from your workstation using the following command:
+
+   ssh -N -L 8787:${IP_ADDR}:8787 ${SINGULARITYENV_USER}@XXX ## Jiayi: change it to your HPC IP address. 
+
+   and point your web browser to http://localhost:8787
+
+2. log in to RStudio Server using the following credentials:
+
+   user: ${SINGULARITYENV_USER}
+   password: ${SINGULARITYENV_PASSWORD}
+
+When done using RStudio Server, terminate the job by:
+
+1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
+2. Issue the following command on the login node:
+
+      scancel -f ${SLURM_JOB_ID}
+
+END
+
+# start the Rstudio server
+singularity exec --cleanenv \
+    --bind run:/run,var-lib-rstudio-server:/var/lib/rstudio-server,database.conf:/etc/rstudio/database.conf, $PWD:/XXX/,/tmp \ ## Jiayi: change it to your working directory, and the directory where you want to save the Rstudio session. 
+    ~/rserver_4.1.1bioinfo.sif \
+    --server-user ${USER} \
+    --auth-none=0 \
+    --auth-pam-helper-path=pam-helper
+
+printf 'rserver exited' 1>&2
+```
+
+Fourth, you can submit the job to the HPC using the following command:  
+
+```bash
+sbatch run_rstudio.sh
+```
+
+In your working directory, you'll see two files: "rstudio_XXXX.out" and "rstudio_XXXX.err".  The former one is the output of the job, and the latter one is the error log.  You can check the error log if you encounter any problems.  If you don't see any error, you can check the output file.  In the output file, you'll see a line as such:  
+
+```bash
+ssh -N -L 8787:${IP_ADDR}:8787 ${SINGULARITYENV_USER}@XXX
+```
+
+Copy the above command and paste it into your local terminal.  
+
+Finally, you can open your web browser and type in "localhost:8787" in the address bar.  You'll see the Rstudio server page.  You can log in with your username and password.  And Voila.  You are in the Rstudio server environment of your Utopia.  
+
+Also, you may wanna take a look at the other information in the output file regarding how to terminate the SLURM job.  
+
