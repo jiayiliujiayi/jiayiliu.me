@@ -10,7 +10,7 @@ authors:
 - Xuan Liu
 - Jason I. Griffiths
 - Isaac Bishara
-- Jiayi Liu
+- "Jiayi Liu"
 - Andrea H. Bild
 - Jeffrey T. Chang
 
